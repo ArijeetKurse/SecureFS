@@ -6,3 +6,7 @@
 {"timestamp": "2026-09-22T10:52:45.307058Z", "action": "READ", "filename": "confidential_project.txt", "status": "SUCCESS", "details": "Decrypted 139 bytes"}
 {"timestamp": "2026-09-22T10:52:45.328224Z", "action": "READ", "filename": "confidential_project.txt", "status": "ALERT_TAMPER_OR_AUTH_FAIL", "details": ""}
 {"timestamp": "2026-09-22T10:52:45.347837Z", "action": "READ", "filename": "confidential_project.txt", "status": "ALERT_TAMPER_OR_AUTH_FAIL", "details": ""}
+{"timestamp": "2026-10-02T12:40:55.077386Z", "action": "WRITE", "filename": "confidential_project.txt", "status": "SUCCESS", "details": "Encrypted size: 183 bytes"}
+{"timestamp": "2026-10-02T12:40:55.095037Z", "action": "READ", "filename": "confidential_project.txt", "status": "SUCCESS", "details": "Decrypted 139 bytes"}
+{"timestamp": "2026-10-02T12:40:55.114144Z", "action": "READ", "filename": "confidential_project.txt", "status": "ALERT_TAMPER_OR_AUTH_FAIL", "details": ""}
+{"timestamp": "2026-10-02T12:40:55.132226Z", "action": "READ", "filename": "confidential_project.txt", "status": "ALERT_TAMPER_OR_AUTH_FAIL", "details": ""}
