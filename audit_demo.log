@@ -10,3 +10,22 @@
 {"timestamp": "2026-10-02T12:40:55.095037Z", "action": "READ", "filename": "confidential_project.txt", "status": "SUCCESS", "details": "Decrypted 139 bytes"}
 {"timestamp": "2026-10-02T12:40:55.114144Z", "action": "READ", "filename": "confidential_project.txt", "status": "ALERT_TAMPER_OR_AUTH_FAIL", "details": ""}
 {"timestamp": "2026-10-02T12:40:55.132226Z", "action": "READ", "filename": "confidential_project.txt", "status": "ALERT_TAMPER_OR_AUTH_FAIL", "details": ""}
+{"timestamp": "2026-10-13T06:34:04.590883Z", "action": "READ", "filename": "my_test.txt", "status": "SUCCESS", "details": "Decrypted 30 bytes"}
+{"timestamp": "2026-10-13T06:34:04.685176Z", "action": "WRITE", "filename": "v2_test.txt", "status": "SUCCESS", "details": "Encrypted size: 214 bytes (v2, 600000 rounds)"}
+{"timestamp": "2026-10-13T06:34:04.775761Z", "action": "READ", "filename": "v2_test.txt", "status": "SUCCESS", "details": "Decrypted 42 bytes"}
+{"timestamp": "2026-10-13T06:34:04.865432Z", "action": "READ", "filename": "v2_test.txt", "status": "SUCCESS", "details": "Decrypted 42 bytes"}
+{"timestamp": "2026-10-13T06:34:04.865655Z", "action": "VERIFY", "filename": "v2_test.txt", "status": "SUCCESS", "details": "Integrity verified (Authentication Tag OK)"}
+{"timestamp": "2026-10-13T06:34:04.958814Z", "action": "READ", "filename": "v2_test.txt", "status": "ALERT_TAMPER_OR_AUTH_FAIL", "details": "Auth failure: InvalidTag"}
+{"timestamp": "2026-10-13T06:34:04.959024Z", "action": "VERIFY", "filename": "v2_test.txt", "status": "ALERT_TAMPER_OR_AUTH_FAIL", "details": "Verification failed: bad password or tampered tag"}
+{"timestamp": "2026-10-13T06:35:13.956329Z", "action": "WRITE", "filename": "confidential_project.txt", "status": "SUCCESS", "details": "Encrypted size: 325 bytes (v2, 600000 rounds)"}
+{"timestamp": "2026-10-13T06:35:14.048123Z", "action": "READ", "filename": "confidential_project.txt", "status": "SUCCESS", "details": "Decrypted 139 bytes"}
+{"timestamp": "2026-10-13T06:35:14.138554Z", "action": "READ", "filename": "confidential_project.txt", "status": "ALERT_TAMPER_OR_AUTH_FAIL", "details": "Auth failure: InvalidTag"}
+{"timestamp": "2026-10-13T06:35:14.138966Z", "action": "READ", "filename": "confidential_project.txt", "status": "ALERT_TAMPER_OR_AUTH_FAIL", "details": "Corrupted metadata header"}
+{"timestamp": "2026-10-13T06:42:56.655431Z", "action": "WRITE", "filename": "confidential_project.txt", "status": "SUCCESS", "details": "Encrypted size: 325 bytes (v2, 600000 rounds)"}
+{"timestamp": "2026-10-13T06:42:56.745176Z", "action": "READ", "filename": "confidential_project.txt", "status": "SUCCESS", "details": "Decrypted 139 bytes"}
+{"timestamp": "2026-10-13T06:42:56.834879Z", "action": "READ", "filename": "confidential_project.txt", "status": "ALERT_TAMPER_OR_AUTH_FAIL", "details": "Auth failure: InvalidTag"}
+{"timestamp": "2026-10-13T06:42:56.835216Z", "action": "READ", "filename": "confidential_project.txt", "status": "ALERT_TAMPER_OR_AUTH_FAIL", "details": "Corrupted metadata header"}
+{"timestamp": "2026-10-13T07:22:13.097110Z", "action": "WRITE", "filename": "confidential_project.txt", "status": "SUCCESS", "details": "Encrypted size: 325 bytes (v2, 600000 rounds)"}
+{"timestamp": "2026-10-13T07:22:13.166952Z", "action": "READ", "filename": "confidential_project.txt", "status": "SUCCESS", "details": "Decrypted 139 bytes"}
+{"timestamp": "2026-10-13T07:22:13.226448Z", "action": "READ", "filename": "confidential_project.txt", "status": "ALERT_TAMPER_OR_AUTH_FAIL", "details": "Auth failure: InvalidTag"}
+{"timestamp": "2026-10-13T07:22:13.226696Z", "action": "READ", "filename": "confidential_project.txt", "status": "ALERT_TAMPER_OR_AUTH_FAIL", "details": "Corrupted metadata header"}
