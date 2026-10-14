@@ -1,0 +1,30 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing Cache
+.pytest_cache/
+
+# Office / Editor Lock & Temp files
+.~lock.*#
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+
+# Runtime vaults & active audit logs (demo files in encrypted_storage_demo/ are preserved)
+encrypted_storage/
+audit.log
+*.tmp
