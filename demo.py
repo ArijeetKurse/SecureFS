@@ -31,7 +31,7 @@ def main():
         "Status: Passed Evaluation with 100% Integrity.\n"
     ).encode('utf-8')
     
-    path = fs.write_file(filename, content, PASSWORD)
+    path = fs.write_file(filename, content, PASSWORD, overwrite=True)
     print(f"[+] File written successfully to storage path: {path}")
     
     # 2. Show raw encrypted content on disk
